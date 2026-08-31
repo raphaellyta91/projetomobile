@@ -3,6 +3,7 @@ import {
   Text,
   Image,
   Button,
+  Linking
 } from 'react-native';
 
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -30,6 +31,14 @@ export default function PerfilUsuario() {
           title="Sair"
           onPress={() => console.log('Sair')}
         />
+
+
+       <Button
+        title="Abrir Google"
+        onPress={() => Linking.openURL('https://www.google.com')}
+      />
+
+
 
       </View>
     </SafeAreaView>

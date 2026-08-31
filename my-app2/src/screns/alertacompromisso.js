@@ -2,7 +2,7 @@
 import { View, Text, TextInput, Button } from 'react-native';
 import { useState } from 'react';
 
-export default function AlertaCompromisso() {
+
 
  
   const [nome, setNome] = useState('');
@@ -11,4 +11,5 @@ export default function AlertaCompromisso() {
   const [compromissos, setCompromissos] = useState([]);
 
   
-  f
+export default function AlertaCompromisso() {
+}

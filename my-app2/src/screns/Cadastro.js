@@ -5,7 +5,8 @@ import {
   Button,
   ImageBackground,
   StyleSheet,
-  ScrollView
+  ScrollView,
+ Linking
 } from 'react-native';
 
 import { SafeAreaProvider } from 'react-native-safe-area-context';
